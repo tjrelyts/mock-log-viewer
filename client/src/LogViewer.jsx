@@ -1,5 +1,6 @@
 // Tyler Santosuosso
 
+import React from 'react';
 import { useEffect, useRef, useState } from 'react';
 
 const LOG_COLORS = {

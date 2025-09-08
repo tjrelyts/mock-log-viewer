@@ -1,8 +1,11 @@
 {
   "devDependencies": {
-    "globals": "^16.3.0"
+    "globals": "^16.3.0",
+    "husky": "^9.1.7"
   },
   "scripts": {
-    "lint": "echo 'No linting at root'"
+    "lint": "eslint .",
+    "lint:fix": "eslint --max-warnings=0 --fix",
+    "prepare": "husky"
   }
 }

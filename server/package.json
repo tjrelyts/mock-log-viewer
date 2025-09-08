@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "lint": "eslint . --ext .js"
+    "lint": "eslint .",
+    "lint:fix": "eslint --max-warnings=0 --fix"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +20,9 @@
     "@eslint/js": "^9.35.0",
     "eslint": "^9.35.0",
     "eslint-plugin-react": "^7.37.5",
-    "globals": "^16.3.0"
+    "globals": "^16.3.0",
+    "husky": "^9.1.7",
+    "prettier": "3.6.2"
   },
   "description": ""
 }

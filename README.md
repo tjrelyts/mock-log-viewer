@@ -16,14 +16,14 @@ A full-stack, containerized log viewer app for real-time log streaming and visua
 ## Architecture
 
 - **Server**: Node.js WebSocket server ([server/server.js](server/server.js)) generates and streams mock log messages using [`LogGenerator`](server/logGenerator.js).
-- **Client**: React + Vite frontend ([client/src/LogViewer.jsx](client/src/LogViewer.jsx)) displays logs in real time, with controls for pausing/resuming and clearing logs.
+- **Client**: React + TailwindCSS frontend ([client/src/LogViewer.jsx](client/src/LogViewer.jsx)) displays logs in real time, with controls for pausing/resuming and clearing logs.
 - **Docker**: Multi-container setup via [docker-compose.yml](docker-compose.yml) for easy deployment.
 
 ## Project Structure
 
 ```
 mock-log-viewer/
-├── client/        # React + Vite frontend
+├── client/        # React + TailwindCSS frontend
 │   ├── src/
 │   │   ├── LogViewer.jsx
 │   │   ├── main.jsx

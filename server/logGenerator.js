@@ -1,5 +1,4 @@
 // Tyler Santosuosso
-// Lint Test
 
 import { faker } from '@faker-js/faker';
 

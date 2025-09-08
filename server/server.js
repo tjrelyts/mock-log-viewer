@@ -1,5 +1,5 @@
 // Tyler Santosuosso
-// Test
+// Lint Test
 
 import { WebSocketServer } from "ws";
 import { LogGenerator } from "./logGenerator.js";
